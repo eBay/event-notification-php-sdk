@@ -84,7 +84,8 @@ Note: You can refer to [example.php](src/examples/example.php) for an example of
 
 **Install and Run**
 
-```shell
+```
+composer install
 composer run-script start
 ```
 
@@ -100,7 +101,7 @@ Uses standard error logging.
 
 # License
 
-Copyright 2022 eBay Inc.
+Copyright 2022 eBay Inc.<br />
 Developer: Shuoyang Yao
 
 Licensed under the Apache License, Version 2.0 (the "License");
