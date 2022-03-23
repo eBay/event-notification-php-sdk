@@ -1,0 +1,30 @@
+{
+    "name": "ebay/event-notification-php-sdk",
+    "description": "A PHP SDK for processing eBay event notifications",
+    "keywords": ["eBay", "Event Notification", "SDK", "Endpoint Validation"],
+    "license": "ISC",
+    "autoload": {
+        "psr-4": {
+            "EventNotificationPHPSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shuoyang Yao"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.4",
+        "lrucache/lrucache": "master-dev",
+        "guzzlehttp/guzzle": "^7.3",
+        "spatie/async": "^1.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "start": "php -S localhost:9000 src/examples/example.php",
+        "test": "./vendor/bin/phpunit src/test/test.php"
+    }
+}
