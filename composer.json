@@ -3,6 +3,7 @@
     "description": "A PHP SDK for processing eBay event notifications",
     "keywords": ["eBay", "Event Notification", "SDK", "Endpoint Validation"],
     "license": "ISC",
+    "version": "1.0.1",
     "autoload": {
         "psr-4": {
             "EventNotificationPHPSdk\\": "src/"
@@ -17,7 +18,7 @@
         "slim/slim": "4.*",
         "slim/psr7": "^1.4",
         "lrucache/lrucache": "master-dev",
-        "guzzlehttp/guzzle": "^7.3",
+        "guzzlehttp/guzzle": "^7.4.3",
         "spatie/async": "^1.5"
     },
     "require-dev": {
