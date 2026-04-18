@@ -22,7 +22,7 @@
         "spatie/async": "^1.5"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^12.5"
     },
     "scripts": {
         "start": "php -S localhost:9000 src/examples/example.php",
